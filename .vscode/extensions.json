@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv",
+    "dbaeumer.vscode-eslint",
+    "mhutchie.git-graph",
+    "gimenete.github-linker",
+    "tintinweb.vscode-inline-bookmarks",
+    "firsttris.vscode-jest-runner",
+    "shd101wyy.markdown-preview-enhanced",
+    "christian-kohler.path-intellisense",
+    "vscode-icons-team.vscode-icons",
+    "sadesyllas.vscode-workspace-switcher",
+    "ritwickdey.LiveServer",
+    "ms-playwright.playwright",
+    "redhat.vscode-yaml"
+  ]
+}
