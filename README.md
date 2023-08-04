@@ -25,3 +25,16 @@ If you are developing a production application, we recommend updating the config
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Setup
+- scope component css
+- set folder structure
+- add multi env support (dev, staging, prod)
+- add prettier
+- add react router (hash)
+- add unittest
+- set as pwa
+- set store
+- set react hook form
+- set react query
+- add playwright e2e test
