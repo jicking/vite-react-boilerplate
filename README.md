@@ -31,10 +31,11 @@ If you are developing a production application, we recommend updating the config
 - set folder structure
 - add multi env support (dev, staging, prod)
 - add prettier
-- add react router (hash)
+- check nanostores stack https://github.com/nanostores/nanostores
+- set store
+- add router (hash)
+- set react query
+- set react hook form
 - add unittest
 - set as pwa
-- set store
-- set react hook form
-- set react query
 - add playwright e2e test
