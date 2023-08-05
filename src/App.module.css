@@ -1,0 +1,5 @@
+/* set main container styles here... */
+
+.container{
+    display: flex;   
+}
