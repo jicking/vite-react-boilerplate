@@ -6,9 +6,9 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className={classes.container}>
+    <div className={classes.site}>
       <header>Brand</header>
-      <main>
+      <main className={classes.siteContent}>
         <HomePage />
         <button onClick={() => setCount((count) => count + 1)} className="btn">
           count is {count}
