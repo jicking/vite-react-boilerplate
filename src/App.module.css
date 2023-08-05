@@ -1,5 +1,12 @@
 /* set main container styles here... */
 
-.container{
-    display: flex;   
-}
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .siteContent {
+    flex: 1;
+  }
+  
