@@ -1,4 +1,4 @@
-/* global style, set tokens here... */
+/* global, set tokens/variables here... */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -15,12 +15,22 @@
   -webkit-text-size-adjust: 100%;
 }
 
-button {
-  padding: 8px;
-  margin-right: 8px;
+/* global element styles */
+body {
+  margin: 0;
+  padding: 0;
 }
 
-/* global .btn style */
+button {
+  padding: 8px;
+}
+
+/* global utility styles */
+
 .btn {
   background-color: purple;
+}
+
+.content-wrapper {
+  padding: 8px;
 }

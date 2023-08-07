@@ -13,6 +13,9 @@
     "sadesyllas.vscode-workspace-switcher",
     "ritwickdey.LiveServer",
     "ms-playwright.playwright",
-    "redhat.vscode-yaml"
+    "redhat.vscode-yaml",
+    "clinyong.vscode-css-modules",
+    "rangav.vscode-thunder-client",
+    "burkeholland.simple-react-snippets"
   ]
 }
