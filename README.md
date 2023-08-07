@@ -1,41 +1,22 @@
-# React + TypeScript + Vite
+# Vite React SPA
+Simple preconfigured SPA template (WIP)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Simple folder structure
+- Css Modules
+- Multi env support (dev, staging, prod)
+- Set recomended vs code extensions
+- Set build github action
+- React router v6(hash)
+- Nano stores
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-
-## Setup
-- scope component css
-- set folder structure
-- add multi env support (dev, staging, prod)
-- add prettier
-- check nanostores stack https://github.com/nanostores/nanostores
-- set store
-- add router (hash)
-- set react query
+## Todos
 - set react hook form
-- add unittest
-- set as pwa
-- add playwright e2e test
+- add unittest jest 
+
+### Nice to have
+- add prettier ?
+- set as pwa ?
+- set react query ?
+- add playwright e2e test ?
+
