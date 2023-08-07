@@ -34,3 +34,13 @@ button {
 .content-wrapper {
   padding: 8px;
 }
+
+/*for guide only */
+/*guide1 */
+.gray1{
+  background-color: #454545;
+}
+/*guide2 */
+.blue1{
+  background-color: blue;
+}
