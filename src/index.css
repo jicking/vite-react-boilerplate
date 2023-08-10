@@ -1,46 +1,46 @@
 /* global, set tokens/variables here... */
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
 }
 
 /* global element styles */
 body {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 button {
-  padding: 8px;
+	padding: 8px;
 }
 
 /* global utility styles */
 
 .btn {
-  background-color: purple;
+	background-color: purple;
 }
 
 .content-wrapper {
-  padding: 8px;
+	padding: 8px;
 }
 
 /*for guide only */
 /*guide1 */
-.gray1{
-  background-color: #454545;
+.gray1 {
+	background-color: #454545;
 }
 /*guide2 */
-.blue1{
-  background-color: blue;
+.blue1 {
+	background-color: blue;
 }

@@ -1,12 +1,12 @@
 {
-    "editor.indentSize": "tabSize",
-    "editor.tabSize": 2,
-    "editor.insertSpaces": false,
-    "editor.formatOnPaste": true,
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.profiles.windows": {
-        "Git Bash": {
-            "source": "Git Bash"
-        }
-    }
+	"editor.formatOnPaste": true,
+	"editor.tabSize": 2,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.profiles.windows": {
+		"Git Bash": {
+			"source": "Git Bash"
+		}
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true
 }

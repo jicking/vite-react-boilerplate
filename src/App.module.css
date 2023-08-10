@@ -1,23 +1,23 @@
 /* set main container styles here... */
 
 .site {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-  
-  .siteContent {
-    flex: 1;
-  }
-  
-  .navTitle{
-    margin-right: auto;    
-  }
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
 
- .siteHeader {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    /* padding: 20px 50px;
+.siteContent {
+	flex: 1;
+}
+
+.navTitle {
+	margin-right: auto;
+}
+
+.siteHeader {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	/* padding: 20px 50px;
     box-shadow: 0 1px 8px #ddd; */
 }
