@@ -1,21 +1,21 @@
 /*Main nav only*/
-.navbar {  
-    justify-content: space-between;
-    align-items: center;  
-  }
-  .navlinks {
-    list-style: none;
-    display: flex;
-  }
-  header li{
-   padding: 0 20px; 
-  }
-  header li a {
-    text-decoration: none !important;
-    color: #bcbcbc;
-    transition: all 0.3s ease 0s;
-  }
+.navbar {
+	justify-content: space-between;
+	align-items: center;
+}
+.navlinks {
+	list-style: none;
+	display: flex;
+}
+header li {
+	padding: 0 20px;
+}
+header li a {
+	text-decoration: none !important;
+	color: #bcbcbc;
+	transition: all 0.3s ease 0s;
+}
 
-  header li a:hover{
-    color: #ffffff;
-  }
+header li a:hover {
+	color: #ffffff;
+}
