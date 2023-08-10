@@ -1,16 +1,16 @@
 {
-	"name": "vite-react-boilerplate",
+	"name": "vite-react-spa",
 	"private": true,
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
-		"staging": "vite --mode staging",
 		"build": "tsc && vite build",
 		"build:staging": "tsc && vite build --mode staging",
+		"preview": "vite preview",
+		"format": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,html,css}\"",
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-		"pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,html,css}\"",
-		"preview": "vite preview"
+		"test": "vitest"
 	},
 	"dependencies": {
 		"@nanostores/persistent": "^0.9.1",
@@ -29,6 +29,7 @@
 		"sort-by": "^1.2.0"
 	},
 	"devDependencies": {
+		"@testing-library/react": "^14.0.0",
 		"@types/react": "^18.2.15",
 		"@types/react-dom": "^18.2.7",
 		"@typescript-eslint/eslint-plugin": "^6.3.0",
@@ -37,7 +38,9 @@
 		"eslint": "^8.46.0",
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"eslint-plugin-react-refresh": "^0.4.3",
+		"jsdom": "^22.1.0",
 		"typescript": "^5.0.2",
-		"vite": "^4.4.5"
+		"vite": "^4.4.5",
+		"vitest": "^0.34.1"
 	}
 }
