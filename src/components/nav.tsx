@@ -9,16 +9,10 @@ export function NavbarLink() {
 					<Link to="/">Home</Link>
 				</li>
 				<li>
-					<Link to="/about">About us</Link>
+					<Link to="/about">About</Link>
 				</li>
 				<li>
-					<Link to="/portfolio">Portfolio</Link>
-				</li>
-				<li>
-					<Link to="/services">Services</Link>
-				</li>
-				<li>
-					<Link to="/contacts">Contact us</Link>
+					<Link to="/account/login">Login</Link>
 				</li>
 			</ul>
 		</nav>
