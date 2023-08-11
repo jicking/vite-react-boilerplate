@@ -13,7 +13,7 @@ function App() {
 	// @todo extract site header to component
 	const MainPageLayout = () => (
 		<div className={classes.site}>
-			<header className={`content-wrapper ${classes.siteHeader} testing something testing`}>
+			<header className={`content-wrapper ${classes.siteHeader} testing something`}>
 				<h1 className={classes.navTitle}> {import.meta.env.VITE_APP_BRAND} </h1>
 				<NavbarLink />
 			</header>
