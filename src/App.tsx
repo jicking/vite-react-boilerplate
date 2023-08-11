@@ -6,6 +6,7 @@ import { AboutPage } from './pages/AboutPage'
 import { NotFoundPage } from './pages/NotFoundPage'
 import { Outlet, Route, Routes } from 'react-router-dom'
 import { LoginPage } from './pages/account/LoginPage'
+import { BsFillAlarmFill } from 'react-icons/bs'
 
 function App() {
 	// @todo implement auth required routes https://stackblitz.com/github/remix-run/react-router/tree/main/examples/auth?file=src%2FApp.tsx
@@ -17,6 +18,7 @@ function App() {
 				<NavbarLink />
 			</header>
 			<main className={`content-wrapper ${classes.siteContent}`}>
+				<BsFillAlarmFill />
 				<Outlet />
 			</main>
 			<SiteFooter />
