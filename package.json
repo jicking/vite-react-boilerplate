@@ -15,6 +15,7 @@
 	"dependencies": {
 		"@nanostores/persistent": "^0.9.1",
 		"@nanostores/react": "^0.7.1",
+		"@react-icons/all-files": "^4.1.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-import": "^2.28.0",
 		"eslint-plugin-jsx-a11y": "^6.7.1",
