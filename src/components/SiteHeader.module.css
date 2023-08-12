@@ -1,0 +1,44 @@
+.siteHeader {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.navTitle {
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+.mainNav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.navlinks {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.navlinks li {
+	padding: 0 20px;
+}
+.navlinks li a {
+	text-decoration: none !important;
+	color: #bcbcbc;
+	transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+	color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+	.siteHeader {
+		display: flex;
+		flex-direction: row;
+	}
+}
