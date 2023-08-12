@@ -1,11 +1,11 @@
 /*Main nav only*/
-.navbar {
-	justify-content: space-between;
-	align-items: center;
+.mainNav {
+	/* display: inline-block; */
+	/* justify-content: space-between; */
+	/* align-items: center; */
 }
 .navlinks {
 	list-style: none;
-	display: flex;
 }
 header li {
 	padding: 0 20px;
@@ -18,4 +18,13 @@ header li a {
 
 header li a:hover {
 	color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+	/* .mainNav {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		margin-right: 30px;
+	} */
 }
