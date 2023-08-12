@@ -1,22 +1,23 @@
 {
-	"recommendations": [
-		"esbenp.prettier-vscode",
-		"mikestead.dotenv",
-		"dbaeumer.vscode-eslint",
-		"mhutchie.git-graph",
-		"gimenete.github-linker",
-		"tintinweb.vscode-inline-bookmarks",
-		"firsttris.vscode-jest-runner",
-		"shd101wyy.markdown-preview-enhanced",
-		"christian-kohler.path-intellisense",
-		"vscode-icons-team.vscode-icons",
-		"sadesyllas.vscode-workspace-switcher",
-		"ritwickdey.LiveServer",
-		"ms-playwright.playwright",
-		"redhat.vscode-yaml",
-		"clinyong.vscode-css-modules",
-		"rangav.vscode-thunder-client",
-		"burkeholland.simple-react-snippets",
-		"GitHub.vscode-pull-request-github"
-	]
+  "recommendations": [
+    // utils
+    "mhutchie.git-graph",
+    "gimenete.github-linker",
+    "GitHub.vscode-pull-request-github",
+    "mikestead.dotenv",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "tintinweb.vscode-inline-bookmarks",
+    "christian-kohler.path-intellisense",
+    "vscode-icons-team.vscode-icons",
+    "sadesyllas.vscode-workspace-switcher",
+    "ritwickdey.LiveServer",
+    "rangav.vscode-thunder-client",
+    "redhat.vscode-yaml",
+    // Project specific
+    "clinyong.vscode-css-modules",
+    "burkeholland.simple-react-snippets",
+    "antfu.vite",
+    "ms-playwright.playwright",
+  ]
 }
