@@ -1,0 +1,7 @@
+.field-container {
+	margin: var(--spacing-sm) 0;
+}
+
+.field-container label {
+	display: block;
+}

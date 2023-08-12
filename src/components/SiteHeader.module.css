@@ -3,14 +3,14 @@
 	flex-direction: column;
 	justify-content: space-between;
 
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-top: var(--spacing-sm);
+	padding-bottom: var(--spacing-sm);
 }
 
 .navTitle {
 	display: inline-block;
-	font-size: 24px;
 	font-weight: bolder;
+	font-size: var(--font-size-lg);
 }
 
 .mainNav {
@@ -36,7 +36,7 @@
 	color: #ffffff;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
 	.siteHeader {
 		display: flex;
 		flex-direction: row;

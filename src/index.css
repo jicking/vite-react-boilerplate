@@ -1,12 +1,30 @@
-/* global, set tokens/variables here... */
+/* global */
 :root {
+	/* variables/tokens */
+	--color-background: #0e0e0e;
+	--color-text: #ffffff;
+	--color-primary: #0e0e0e;
+	--color-primary-text: #ffffff;
+	--color-secondary: #ffffff;
+	--color-secondary-text: #0e0e0e;
+	--spacing: 16px;
+	--spacing-sm: 8px;
+	--spacing-lg: 24px;
+	--font-size: 16px;
+	--font-size-sm: 12px;
+	--font-size-lg: 24px;
+	--view-sm: 320px;
+	--view-md: 600px;
+
+	/* defaults */
 	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 	line-height: 1.5;
 	font-weight: 400;
+	font-size: var(--font-size);
 
 	color-scheme: light dark;
-	color: rgba(255, 255, 255, 0.87);
-	background-color: #242424;
+	color: var(--color-text);
+	background-color: var(--color-background);
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -16,9 +34,10 @@
 }
 
 /* global element styles */
-body {
+* {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 button {
@@ -26,7 +45,6 @@ button {
 }
 
 /* global utility styles */
-
 .btn {
 	background-color: purple;
 }
@@ -34,6 +52,14 @@ button {
 .content-wrapper {
 	padding-right: 16px;
 	padding-left: 16px;
+}
+
+/* mobile first - use min width */
+@media screen and (min-width: 480px) {
+	.content-wrapper {
+		/* max-width: 900px; */
+		padding: var(--spacing-sm) var(--spacing);
+	}
 }
 
 /*for guide only */
