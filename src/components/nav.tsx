@@ -3,7 +3,7 @@ import nv from './Nav.module.css'
 
 export function NavbarLink() {
 	return (
-		<nav className={nv.navbar}>
+		<nav className={`${nv.mainNav}`}>
 			<ul className={nv.navlinks}>
 				<li>
 					<Link to="/">Home</Link>

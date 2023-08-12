@@ -1,23 +1,33 @@
 /* set main container styles here... */
 
-.site {
+/* .site {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
-}
+} */
 
 .siteContent {
 	flex: 1;
 }
 
 .navTitle {
+	display: inline-block;
 	margin-right: auto;
 }
 
 .siteHeader {
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
+	/* display: flex;
+	align-items: center; */
+	/* justify-content: flex-end; */
 	/* padding: 20px 50px;
     box-shadow: 0 1px 8px #ddd; */
+}
+
+@media screen and (min-width: 768px) {
+	.siteHeader {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		padding: 20px 50px;
+	}
 }
