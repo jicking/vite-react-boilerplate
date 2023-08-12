@@ -13,13 +13,12 @@ Simple preconfigured SPA template (WIP)
 - Prettier
 - Nano stores
 - Vitetest
+- Playwright (e2e test)
 
 ## Todos
-
-- set react hook form
-- add playwright e2e test ?
 
 ### Nice to have
 
 - set as pwa ?
 - set react query ?
+- set react hook form
