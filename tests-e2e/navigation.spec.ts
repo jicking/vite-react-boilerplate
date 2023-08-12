@@ -18,17 +18,11 @@ test('Home link', async ({ page }) => {
 })
 
 test('About link', async ({ page }) => {
-	// Click the get started link.
 	await page.getByRole('link', { name: 'About' }).click()
-
-	// Expects page to have a heading with the name of Installation.
 	await expect(page.getByRole('heading', { name: 'About' })).toBeVisible()
 })
 
 test('Login link', async ({ page }) => {
-	// Click the get started link.
 	await page.getByRole('link', { name: 'Login' }).click()
-
-	// Expects page to have a heading with the name of Installation.
 	await expect(page.getByRole('heading', { name: 'Login' })).toBeVisible()
 })
