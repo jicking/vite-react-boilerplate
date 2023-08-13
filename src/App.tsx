@@ -9,6 +9,7 @@ import { LoginPage } from './pages/account/LoginPage'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faBars } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import AccountPage from './pages/account/AccountPage'
 
 function App() {
 	// @todo implement auth required routes https://stackblitz.com/github/remix-run/react-router/tree/main/examples/auth?file=src%2FApp.tsx
@@ -33,7 +34,7 @@ function App() {
 				<Route path="*" element={<NotFoundPage />} />
 			</Route>
 			<Route path="/account" element={<MainPageLayout />}>
-				<Route index element={<HomePage />} />
+				<Route index element={<AccountPage />} />
 				<Route path="login" element={<LoginPage />} />
 				<Route path="*" element={<NotFoundPage />} />
 			</Route>
