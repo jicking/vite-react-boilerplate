@@ -6,9 +6,7 @@ import { AboutPage } from './pages/AboutPage'
 import { NotFoundPage } from './pages/NotFoundPage'
 import { Outlet, Route, Routes } from 'react-router-dom'
 import { LoginPage } from './pages/account/LoginPage'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faBars } from '@fortawesome/free-solid-svg-icons'
-import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+
 import AccountPage from './pages/account/AccountPage'
 
 function App() {
@@ -17,9 +15,6 @@ function App() {
 		<div className={classes.site}>
 			<SiteHeader />
 			<main className={`content-wrapper ${classes[`site-content`]}`}>
-				<FontAwesomeIcon icon={faEnvelope} /> <br></br>
-				<FontAwesomeIcon icon={faBars} />
-				<FontAwesomeIcon icon={faFacebook} />
 				<Outlet />
 			</main>
 			<SiteFooter />
