@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test'
+import { APP_BRAND_NAME } from '../src/shared/constants'
 
 test.beforeEach(async ({ page }) => {
 	await page.goto('/')
@@ -6,7 +7,7 @@ test.beforeEach(async ({ page }) => {
 
 test('Page has default title', async ({ page }) => {
 	// Expect a title "to contain" a substring.
-	await expect(page).toHaveTitle(/BRAND/)
+	await expect(page).toHaveTitle(APP_BRAND_NAME)
 })
 
 test('Home link', async ({ page }) => {
